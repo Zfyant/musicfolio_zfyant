@@ -80,5 +80,7 @@
   dedupeCovers();
   coverFallback();
   randomizeChipHues();
-  showSection('artists');
+  var defaultBtn = document.querySelector('.tab-btn[data-tab="all"]');
+  if (defaultBtn) { activate(defaultBtn); }
+  showSection('all');
 })();
