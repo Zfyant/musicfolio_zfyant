@@ -1,0 +1,6 @@
+# Ensure text files are normalized to LF in the repository
+* text=auto
+
+# Additionally, force LF line endings on checkout (working directory) for all text files
+# The second line ensures all text files have LF on checkout for every user.
+* text eol=lf
